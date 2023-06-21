@@ -1,0 +1,29 @@
+{
+  "name": "KaryaCNC",
+  "description": "CAM software for CNC/KaryaController",
+  "version": "1.0",
+  "manifest_version": 2,
+  "sockets": {
+    "tcp": {
+      "connect": "*"
+    },
+
+    "tcpServer": {
+      "listen": "*"
+    }
+  },
+  
+  "icons": {
+    "16": "serial.png",
+    "128": "serial.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+  ,"permissions": [
+  ]
+  
+
+}

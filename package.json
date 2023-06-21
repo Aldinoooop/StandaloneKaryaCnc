@@ -1,0 +1,23 @@
+{
+  "name": "KaryaCNC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.10",
+    "electron": "^25.1.0",
+    "electron-chrome-extension": "^5.0.0",
+    "electron-json-storage": "^4.6.0",
+    "electron-store": "^8.1.0",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "node-telegram-bot-api": "^0.61.0",
+    "ws": "^8.13.0"
+  }
+}
